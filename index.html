@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Página</title>
+</head>
+<body>
+
+<header id="topo">
+    <nav>
+        <ul class="nav-main">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#photos">Fotos</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="#about">Sobre</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="images">
+        <div class="image">
+            <img src="image1.jpg" alt="Image 1">
+            <p type="button" onclick="revelar()" class="botao">eu no meu primeiro emprego</p>
+            <figcaption id="interativo1"></figcaption>
+        </div>
+        <div class="image">
+            <img src="image2.png" alt="Image 2">
+            <p type="button" onclick="revelar2()" class="botao">eu sou pintor nas horas vagas</p>
+            <figcaption id="interativo2"></figcaption>
+        </div>
+        <div class="image">
+            <img src="image3.jpg" alt="Image 3">
+            <p type="button" onclick="revelar3()" class="botao">eu nas férias do ano passado</p>
+            <figcaption id="interativo3"></figcaption>
+        </div>
+    </section>
+    <section>
+
+    </section>
+</main>
+
+<footer>
+    <div class="footermain">
+       <a href="#topo">Voltar para o topo</a>
+    </div>
+</footer>
+
+</body>
+<script src="script.js"></script>
+</html>

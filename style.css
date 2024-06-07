@@ -1,0 +1,129 @@
+*{
+    font-family: cursive;
+}
+
+/* Celular - pequeno: até 360px de largura */
+@media only screen and (max-width: 360px) {
+    body {
+      background-color: lightblue;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Celular - médio: 361px a 480px de largura */
+  @media only screen and (min-width: 361px) and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  
+  /* Celular - grande: 481px a 768px de largura */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+      background-color: lightpink;
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+  
+  /* Tablet - retrato: 769px a 1024px de largura */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+      background-color: lightyellow;
+    }
+    p {
+      font-size: 28px;
+    }
+  }
+  
+  /* Tablet - paisagem: 1025px a 1280px de largura */
+  @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    body {
+      background-color: lightblue;
+    }
+    p {
+      font-size: 32px;
+    }
+  }
+  
+  /* Desktop - comum: 1281px a 1440px de largura */
+  @media only screen and (min-width: 1281px) and (max-width: 1440px) {
+    body {
+      background-color: lightgreen;
+    }
+    p {
+      font-size: 36px;
+    }
+  }
+  
+  /* Desktop - grande: acima de 1441px de largura */
+  @media only screen and (min-width: 1441px) {
+    body {
+      background-color: lightpink;
+    }
+    p {
+      font-size: 40px;
+    }
+  }
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(255, 255, 255, 0.603);
+    padding: 12px;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    flex-flow: row wrap;
+}
+
+.nav-main li {
+    color: black;
+    padding: 8px 8px;
+    font-size: x-large;
+}
+
+.nav-main a:hover {
+    border-bottom: black solid 4px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    max-width:100%;
+    max-height:100%;
+    border-radius: 16px;
+}
+
+.image p {
+    margin-top: 10px;
+    color: black;
+}
+
+.botao:hover{
+    cursor:pointer;
+}
+
+.footermain{
+    background-color: rgba(255, 255, 255, 0.603);
+    padding: 16px;
+    font-size: x-large;
+}
